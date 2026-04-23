@@ -1,7 +1,0 @@
-from grab_cesm import list_variables
-
-# All atmosphere variables, historical, CMIP6 forcing
-list_variables("atm", "historical", "cmip6")
-
-# All ocean variables, SSP3-7.0 scenario
-list_variables("ocn", "ssp370", "cmip6")
